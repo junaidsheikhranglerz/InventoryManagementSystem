@@ -81,42 +81,42 @@
 
 
                                             <div class="form-group">
-                                                <label for="middle-name" class="control-label col-md-5 col-sm-3 col-xs-12">Normal Price <span class="required">*</span></label>
-                                                <div class="col-md-3 col-sm-6 col-xs-12" display:inline>
+                                                <label for="middle-name" class="control-label col-md-5 col-sm-5 col-xs-12">Normal Price <span class="required">*</span></label>
+                                                <div class="col-md-3 col-sm-3 col-xs-12" display:inline>
                                                     <input id="NormalPrice" style="text-align:center" onkeyup="javascript:Add();" class="form-control col-md-7 col-xs-12" type="text" name="normal_price" required>
                                                 </div>
-                                                <label for="middle-name" class="control-label col-md-1 col-sm-3 col-xs-12"> +VAT= </label>
-                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                <label for="middle-name" class="control-label col-md-1 col-sm-1 col-xs-12"> +VAT= </label>
+                                                <div class="col-md-3 col-sm-3 col-xs-12">
                                                     <input id="NormalTotal" style="text-align:center" class="form-control col-md-7 col-xs-12" type="text" name="normal_vat">
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label for="middle-name" class="control-label col-md-5 col-sm-3 col-xs-12">Trade Price</label>
-                                                <div class="col-md-3 col-sm-6 col-xs-12" display:inline>
+                                                <label for="middle-name" class="control-label col-md-5 col-sm-5 col-xs-12">Trade Price</label>
+                                                <div class="col-md-3 col-sm-3 col-xs-12" display:inline>
                                                     <input id="TradePrice" style="text-align:center" onkeyup="javascript:Add();" class=" form-control col-md-7 col-xs-12" type="text" name="trade_price" required>
                                                 </div>
-                                                <label for="middle-name" class="control-label col-md-1 col-sm-3 col-xs-12"> +VAT= </label>
-                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                <label for="middle-name" class="control-label col-md-1 col-sm-1 col-xs-12"> +VAT= </label>
+                                                <div class="col-md-3 col-sm-3 col-xs-12">
                                                     <input id="TradeTotal" style="text-align:center" class="form-control col-md-7 col-xs-12" type="text" name="trade_vat">
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label for="middle-name" class="control-label col-md-5 col-sm-3 col-xs-12">Premium Price <span class="required">*</span></label>
-                                                <div class="col-md-3 col-sm-6 col-xs-12" display:inline>
+                                                <label for="middle-name" class="control-label col-md-5 col-sm-5 col-xs-12">Premium Price <span class="required">*</span></label>
+                                                <div class="col-md-3 col-sm-3 col-xs-12" display:inline>
                                                     <input id="PremiumPrice" onkeyup="javascript:Add();" class="form-control col-md-7 col-xs-12" type="text" name="premium_price" required style="text-align:center">
                                                 </div>
-                                                <label for="middle-name" class="control-label col-md-1 col-sm-3 col-xs-12"> +VAT= </label>
-                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                <label for="middle-name" class="control-label col-md-1 col-sm-1 col-xs-12"> +VAT= </label>
+                                                <div class="col-md-3 col-sm-3 col-xs-12">
                                                     <input id="PremiumTotal" style="text-align:center" class="form-control col-md-7 col-xs-12" type="text" name="premium_vat">
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label for="middle-name" class="control-label col-md-5 col-sm-3 col-xs-12">Other Price <span class="required">*</span></label>
-                                                <div class="col-md-3 col-sm-6 col-xs-12" display:inline>
+                                                <label for="middle-name" class="control-label col-md-5 col-sm-5 col-xs-12">Other Price <span class="required">*</span></label>
+                                                <div class="col-md-3 col-sm-3 col-xs-12" display:inline>
                                                     <input id="OtherPrice" style="text-align:center" onkeyup="javascript:Add();" class="form-control col-md-7 col-xs-12" type="text" name="other_price" required>
                                                 </div>
-                                                <label for="middle-name" class="control-label col-md-1 col-sm-3 col-xs-12"> +VAT= </label>
-                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                <label for="middle-name" class="control-label col-md-1 col-sm-1 col-xs-12"> +VAT= </label>
+                                                <div class="col-md-3 col-sm-3 col-xs-12">
                                                     <input id="OtherTotal" style="text-align:center" class="form-control col-md-7 col-xs-12" type="text" name="other_vat">
                                                 </div>
                                             </div>
@@ -210,13 +210,18 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <input type="file" name="file" id="file" style="width: 100%;" /> <br />
+                                                <div class="col-md-5"></div>
+                                                <div class="col-md-7">
+                                                    
+                                                    <input type="file" name="file" id="file" /> <br />
 
-                                                @*<input id="middle-name" style="margin-top:5px" class="col-md-12 col-xs-12" type="file" name="image">*@
-                                                @*<input style="margin-top:15px" type="submit" value="Browse" class="btn btn-success" />*@
+                                                    @*<img src="" width="40" height="40" />*@
+
+                                                    @*<input id="middle-name" style="margin-top:5px" class="col-md-12 col-xs-12" type="file" name="image">*@
+                                                    @*<input style="margin-top:15px" type="submit" value="Browse" class="btn btn-success" />*@
+                                                </div>
                                             </div>
-
-                                            <div class="col-md-8 col-sm-6 col-xs-12 col-md-offset-3">
+                                            <div class="col-md-5 col-sm-6 col-xs-12 col-md-offset-3">
 
                                                 <input type="submit" value="Add Product" class="btn btn-success" />
                                             </div>
